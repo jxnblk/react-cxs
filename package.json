@@ -5,6 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server",
+    "build": "webpack -p",
+    "gh-pages": "gh-pages -d demo",
     "test": "ava test -v"
   },
   "keywords": [
@@ -30,6 +32,7 @@
     "babel-preset-stage-0": "^6.5.0",
     "babel-register": "^6.9.0",
     "color": "^0.11.3",
+    "gh-pages": "^0.11.0",
     "highlight-loader": "^0.7.2",
     "html-loader": "^0.4.3",
     "jsdom": "^9.4.0",
