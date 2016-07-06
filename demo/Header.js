@@ -16,6 +16,7 @@ const Header = ({
     },
     buttons: {
       display: 'flex',
+      flexWrap: 'wrap',
       alignItems: 'center'
     }
   }

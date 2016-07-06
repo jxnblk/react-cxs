@@ -17,6 +17,8 @@ class TweetButton extends React.Component {
       verticalAlign: 'middle',
       height: 28,
       marginRight: 16,
+      marginTop: 8,
+      marginBottom: 8,
       'iframe': {
         height: 28,
         margin: 0
