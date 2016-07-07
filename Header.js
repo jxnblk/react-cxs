@@ -6,14 +6,10 @@ import GithubButton from './GithubButton'
 
 const Header = ({
   name,
-  description,
   version,
   ...props
 }) => {
   const cx = {
-    description: {
-      marginTop: 0
-    },
     buttons: {
       display: 'flex',
       flexWrap: 'wrap',
@@ -24,7 +20,6 @@ const Header = ({
   return (
     <header>
       <Heading>{name}</Heading>
-      <p className={cx.description}>{description}</p>
       <div className={cx.buttons}>
         <Button
           href='https://github.com/jxnblk/react-cxs'
