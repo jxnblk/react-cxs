@@ -43,7 +43,7 @@ test('attaches stylesheet to document', async t => {
   t.plan(3)
   const getTag = () => new Promise((resolve, reject) => {
     setTimeout(() => {
-      const style = document.getElementById('cxs-style')
+      const style = document.querySelector('style')
       resolve(style)
     }, 20)
   })
