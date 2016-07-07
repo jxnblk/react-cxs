@@ -5,7 +5,7 @@ const Footer = () => {
       display: 'flex',
       alignItems: 'center',
       paddingTop: 32,
-      paddingBottom: 32,
+      paddingBottom: 128,
       marginLeft: -8,
       marginRight: -8,
     },
@@ -17,6 +17,9 @@ const Footer = () => {
       textDecoration: 'none',
       ':hover': {
         textDecoration: 'underline',
+      },
+      ':last-child': {
+        marginLeft: 'auto'
       }
     }
   }

@@ -14,7 +14,6 @@ class App extends React.Component {
         fontFamily: '-apple-system, sans-serif',
         lineHeight: 1.5,
         padding: 32,
-        maxWidth: 768,
         [breakpoints.md]: {
           paddingLeft: 64,
           paddingRight: 64,
