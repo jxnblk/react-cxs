@@ -5,8 +5,7 @@
 
 **Experimental**
 
-✨
-Alternative `React.createElement` function which allows style objects to be passed to the className prop to generate CSS using [cxs](https://github.com/jxnblk/cxs)
+ϟ Alternative `React.createElement` function which allows style objects to be passed to the className prop to generate CSS using [cxs](https://github.com/jxnblk/cxs)
 
 ```sh
 npm i react-cxs
