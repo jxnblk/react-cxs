@@ -7,17 +7,16 @@ const Heading = (props) => {
     whiteSpace: 'nowrap',
     overflow: 'hidden',
     margin: 0,
-    // animationName: 'rainbow',
-    // animationDuration: '2s',
-    // animationTimingFunction: 'linear',
-    // animationIterationCount: 'infinite',
+    animationName: 'rainbow',
+    animationDuration: '16s',
+    animationTimingFunction: 'linear',
+    animationIterationCount: 'infinite',
     [breakpoints.md]: {
       fontSize: 128
     },
     [breakpoints.lg]: {
       fontSize: 192
     },
-    /*
     '@keyframes rainbow': {
       '0%': {
         color: 'cyan',
@@ -29,7 +28,6 @@ const Heading = (props) => {
         color: 'cyan',
       }
     }
-    */
   }
 
   return <h1 {...props} className={cx} />
