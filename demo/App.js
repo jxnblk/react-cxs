@@ -5,6 +5,7 @@ import pkg from '../package.json'
 import Header from './Header'
 import Prose from './Prose'
 import Footer from './Footer'
+import Css from './Css'
 import { breakpoints } from './style'
 
 class App extends React.Component {
@@ -26,6 +27,7 @@ class App extends React.Component {
         <Header {...pkg} />
         <Prose html={readme} />
         <Footer />
+        <Css />
       </div>
     )
   }
