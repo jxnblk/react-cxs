@@ -22,7 +22,7 @@
     "react": "^0.14.0 || ^15.0.0"
   },
   "dependencies": {
-    "cxs": "^1.0.0-beta.11"
+    "cxs": "^1.0.0"
   },
   "devDependencies": {
     "ava": "^0.15.2",
