@@ -1,6 +1,9 @@
 
 # react-cxs
 
+## This repo has moved to https://github.com/jxnblk/cxs
+
+<!--
 [![Build Status](https://travis-ci.org/jxnblk/react-cxs.svg?branch=master)](https://travis-ci.org/jxnblk/react-cxs)
 
 **Experimental**
@@ -104,4 +107,5 @@ Create your own `createElement` function like the one found in `/src/index.js` a
 - [hyp](https://github.com/jxnblk/hyp)
 
 MIT License
+-->
 
